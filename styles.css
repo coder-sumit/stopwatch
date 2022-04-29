@@ -1,16 +1,16 @@
 /* css reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* style starts */
-body{
+body {
     background-color: #495057;
 }
 
-#watch{
+#watch {
     width: 60%;
     height: 500px;
     min-width: 340px;
@@ -25,14 +25,14 @@ body{
     flex-direction: column;
 }
 
-.timer{
+.timer {
     font-size: 80px;
     font-weight: bolder;
     margin-bottom: 40px;
     color: white;
 }
 
-#btns{
+#btns {
     display: flex;
     justify-content: space-between;
     width: 40%;
@@ -40,7 +40,7 @@ body{
     /* border: 1px solid white; */
 }
 
-button{
+button {
     padding: 10px 30px;
     font-size: 18px;
     background-color: rgb(210, 208, 208);
@@ -52,25 +52,26 @@ button{
 
 /* Responsive design */
 
-@media only screen and (max-width: 1300px){
-    #watch{
+@media only screen and (max-width: 1300px) {
+    #watch {
         margin-top: 50vh;
     }
-   .timer{
-       font-size: 60px;
-   }
-   button {
-    padding: 8px 25px;
-    font-size: 16px;
-   }
- }
- 
 
- @media only screen and (max-width: 600px){
-    #watch{
+    .timer {
+        font-size: 60px;
+    }
+
+    button {
+        padding: 8px 25px;
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    #watch {
         width: 95%;
         height: 300px;
         margin-top: 20vh;
     }
- }
-
+}
