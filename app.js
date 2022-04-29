@@ -6,7 +6,7 @@ let pt = document.getElementById('points');
 let sec = document.getElementById('seconds');
 let min = document.getElementById('minute');
 
-let pt_val = 0, sec_val=55, min_val=59;
+let pt_val = 0, sec_val=0, min_val=0;
 
 
 let id = null;

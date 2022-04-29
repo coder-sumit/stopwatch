@@ -36,6 +36,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 40%;
+    min-width: 300px;
     /* border: 1px solid white; */
 }
 
@@ -49,5 +50,27 @@ button{
 }
 
 
+/* Responsive design */
 
+@media only screen and (max-width: 1300px){
+    #watch{
+        margin-top: 50vh;
+    }
+   .timer{
+       font-size: 60px;
+   }
+   button {
+    padding: 8px 25px;
+    font-size: 16px;
+   }
+ }
+ 
+
+ @media only screen and (max-width: 600px){
+    #watch{
+        width: 95%;
+        height: 300px;
+        margin-top: 20vh;
+    }
+ }
 
